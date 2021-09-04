@@ -1,0 +1,7 @@
+I think there is a typo in the code of the last post:
+
+Local $hBrush = _SendMessage($hWndMain, $WM_CTLCOLORSTATIC, $hdc, $hWnd)
+
+Local $hBrush = _SendMessage($hWnd_Main, $WM_CTLCOLORSTATIC, $hdc, $hWnd)
+
+Thanks for sharing the code!
